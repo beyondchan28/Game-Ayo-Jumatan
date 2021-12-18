@@ -1,0 +1,66 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Kain.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Environment/Raw Assets/gorden-min.jpg" type="Texture" id=2]
+
+[sub_resource type="CubeMesh" id=4]
+size = Vector3( 0.02, 0.02, 3.5 )
+
+[sub_resource type="PlaneMesh" id=5]
+size = Vector2( 1.5, 3 )
+subdivide_width = 4
+subdivide_depth = 4
+
+[sub_resource type="SpatialMaterial" id=3]
+params_cull_mode = 2
+albedo_texture = ExtResource( 2 )
+metallic_specular = 0.0
+
+[node name="BesiGorden" type="MeshInstance"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16.673, 3.231, -7.961 )
+mesh = SubResource( 4 )
+material/0 = null
+
+[node name="SoftBody" parent="." instance=ExtResource( 1 )]
+transform = Transform( -4.37114e-08, -1, 0, -4.37114e-08, 1.91069e-15, -1, 1, -4.37114e-08, -4.37114e-08, 0.0331573, -1.50823, -0.880638 )
+cast_shadow = 0
+generate_lightmap = false
+mesh = SubResource( 5 )
+software_skinning_transform_normals = false
+material/0 = SubResource( 3 )
+attachments/0/spatial_attachment_path = NodePath("..")
+attachments/0/offset = Vector3( 0.0331574, -0.60823, -1.63064 )
+attachments/1/spatial_attachment_path = NodePath("..")
+attachments/1/offset = Vector3( 0.0331573, -0.00822997, -0.130638 )
+attachments/2/spatial_attachment_path = NodePath("..")
+attachments/2/offset = Vector3( 0.0331573, -0.00822997, -0.430638 )
+attachments/3/spatial_attachment_path = NodePath("..")
+attachments/3/offset = Vector3( 0.0331573, -0.00822997, -0.730638 )
+attachments/4/spatial_attachment_path = NodePath("..")
+attachments/4/offset = Vector3( 0.0331574, -0.00822997, -1.03064 )
+attachments/5/spatial_attachment_path = NodePath("..")
+attachments/5/offset = Vector3( 0.0331574, -0.00822997, -1.33064 )
+attachments/6/spatial_attachment_path = NodePath("..")
+attachments/6/offset = Vector3( 0.0331574, -0.00822997, -1.63064 )
+
+[node name="SoftBody2" parent="." instance=ExtResource( 1 )]
+transform = Transform( -4.37114e-08, -1, 0, -4.37114e-08, 1.91069e-15, -1, 1, -4.37114e-08, -4.37114e-08, 0.0331573, -1.50823, 0.889359 )
+cast_shadow = 0
+generate_lightmap = false
+mesh = SubResource( 5 )
+software_skinning_transform_normals = false
+material/0 = SubResource( 3 )
+attachments/0/spatial_attachment_path = NodePath("..")
+attachments/0/offset = Vector3( 0.0331574, -0.60823, 0.139359 )
+attachments/1/spatial_attachment_path = NodePath("..")
+attachments/1/offset = Vector3( 0.0331573, -0.00822997, 1.63936 )
+attachments/2/spatial_attachment_path = NodePath("..")
+attachments/2/offset = Vector3( 0.0331573, -0.00822997, 1.33936 )
+attachments/3/spatial_attachment_path = NodePath("..")
+attachments/3/offset = Vector3( 0.0331573, -0.00822997, 1.03936 )
+attachments/4/spatial_attachment_path = NodePath("..")
+attachments/4/offset = Vector3( 0.0331574, -0.00822997, 0.739359 )
+attachments/5/spatial_attachment_path = NodePath("..")
+attachments/5/offset = Vector3( 0.0331574, -0.00822997, 0.439359 )
+attachments/6/spatial_attachment_path = NodePath("..")
+attachments/6/offset = Vector3( 0.0331574, -0.00822997, 0.139359 )

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/bare feet.wav-ef9e5de0a8b94989ae88634a6bab1003.sample"
+
+[deps]
+
+source_file="res://Sound/bare feet.wav"
+dest_files=[ "res://.import/bare feet.wav-ef9e5de0a8b94989ae88634a6bab1003.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

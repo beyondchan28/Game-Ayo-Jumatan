@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/mandi.mp3-8dfb9f3460cf2b89a210ae249d5d77d4.mp3str"
+
+[deps]
+
+source_file="res://Sound/mandi.mp3"
+dest_files=[ "res://.import/mandi.mp3-8dfb9f3460cf2b89a210ae249d5d77d4.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

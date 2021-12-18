@@ -1,0 +1,24 @@
+[remap]
+
+importer="texture_array"
+type="TextureArray"
+path="res://.import/World.exr-8d16193356eb6d1c23e37d4f822d355a.texarr"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Scenes/World.exr"
+dest_files=[ "res://.import/World.exr-8d16193356eb6d1c23e37d4f822d355a.texarr" ]
+
+[params]
+
+compress/mode=0
+compress/no_bptc_if_rgb=false
+flags/repeat=false
+flags/filter=true
+flags/mipmaps=false
+flags/srgb=false
+slices/horizontal=1
+slices/vertical=2
